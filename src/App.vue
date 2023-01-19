@@ -1,5 +1,6 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppImg from './components/AppImg.vue';
 
 export default {
   data(){
@@ -8,13 +9,15 @@ export default {
     }
   },
   components:{
-    AppTitle
+    AppTitle,
+    AppImg
   }
 }
 </script>
 
 <template>
   <AppTitle></AppTitle>
+  <AppImg></AppImg>
 </template>
 
 <style scoped>
