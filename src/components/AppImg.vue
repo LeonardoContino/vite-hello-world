@@ -16,7 +16,7 @@
 </script>
 
 <template>
- <img src="GetImageUrl(image)" alt="">
+ <img :src="GetImageUrl(image)" alt="">
 </template>
 <style>
 
